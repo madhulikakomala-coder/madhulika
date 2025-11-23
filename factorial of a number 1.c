@@ -1,0 +1,20 @@
+#include<stdio.h>
+int fact(int);
+main()
+{
+	int n, fact0rial;
+	printf("enetr n values");
+	scanf("%d",&n);
+	factorial=fact(n);
+	printf("the factorial is %d",factorial);
+}
+int fact(int x)
+{
+	int result;
+	if(x==0)
+	{
+		retuen 1;
+	}
+result=x*fact(x-1);
+return result;
+}
